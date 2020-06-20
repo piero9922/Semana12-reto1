@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+#form{
+    width: 50%;
+    height: 10rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dropdown{
+    padding: 10px;
+    border: none;
+    background-color: chocolate;
+    border-radius: 3px;
+    color: #333333;
+}
+
