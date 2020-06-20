@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-parrafo{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenido,
+#contenido2,
+#contenido3{
+    border: 1px solid cornflowerblue;
+    margin-bottom: 10px;
+}
+#contenido h3,
+#contenido2 h3,
+#contenido3 h3
+{
+    font-size: 25px;
+    color: #333333;
+    margin: 15px 0 15px 5px;
+    border:1px solid cadetblue;
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#contenido p,
+#contenido2 p,
+#contenido3 p
+{
+    font-size: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
